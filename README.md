@@ -30,11 +30,11 @@ By abstracting complex flight dynamics into an automated orbit system, the proje
 
 ## ✨ Core Technical Features
 
-*   **Automated Orbit & Flight Mechanics:** Driven by `GunshipOrbit.cs`, the aircraft maintains a mathematically stable orbit around the target vector, allowing the system to dedicate CPU cycles to ground-level physics and AI calculations rather than flight surface physics.
-*   **Custom Thermal Imaging (FLIR):** Developed a specialized post-processing pipeline utilizing a `ThermalVision.shader` and `ThermalHeatCamera.cs`. The system dynamically reads the heat signatures of objects (`HeatObject`), enabling both Black Hot and White Hot spectrums for realistic night-vision engagements.
-*   **Dynamic Terrain & Destruction:** Implemented `TerrainDeformer.cs` to modify mesh topology in real-time upon ballistic impacts, creating permanent craters. This is coupled with a `PreFracturedBuilding` system for performance-friendly, satisfying structural collapses.
-*   **Avionics & HUD Engineering:** Engineered a military-grade user interface system (`GimbalHUD` and `RadarHUD`) that tracks crosshair telemetry, manages target locks (`Trackable`), and monitors internal systems (`SystemHealthHUD`).
-*   **AI Threat Management:** The ground environment is populated by state-driven AI logic, including active infantry (`SoldierAI`), dynamic patrol routes (`PatrolMover`), and a layered `RadioChatterManager` for an immersive audio soundscape.
+*   **Automated Orbit & Flight Mechanics:** The aircraft maintains a mathematically stable automated orbit around the target vector, allowing the system to dedicate CPU cycles to ground-level physics and AI calculations rather than complex flight surface physics.
+*   **Custom Thermal Imaging (FLIR):** Developed a specialized post-processing pipeline for thermal rendering. The system dynamically reads the heat signatures of targeted objects, enabling both Black Hot and White Hot spectrums for realistic night-vision engagements.
+*   **Dynamic Terrain & Destruction:** Implemented real-time mesh topology modification upon ballistic impacts, creating permanent craters. This is seamlessly coupled with pre-fractured asset systems for performance-friendly, satisfying structural collapses.
+*   **Avionics & HUD Engineering:** Engineered a military-grade user interface that tracks crosshair telemetry, manages active target locks, and monitors internal system health status.
+*   **AI Threat Management:** The ground environment is populated by state-driven AI logic, featuring active infantry, dynamic patrol routes, and a layered radio chatter system for an immersive combat audio soundscape.
 
 ---
 
@@ -57,7 +57,7 @@ By abstracting complex flight dynamics into an automated orbit system, the proje
 
 Developing a realistic targeting pod simulation required strict optimization, especially concerning rendering and physics calculations:
 *   **Shader Optimization:** The thermal vision is not merely a color filter; it actively isolates objects tagged with specific heat emission layers, ensuring that the shader only processes relevant pixels, saving GPU bandwidth.
-*   **Performance-Friendly Deformation:** Real-time terrain deformation can cause heavy CPU spikes. The `TerrainDeformer` utilizes localized mesh updating techniques to ensure that altering the geometry at the point of impact does not cause frame drops, even during heavy 105mm artillery bombardment.
+*   **Performance-Friendly Deformation:** Real-time terrain deformation can cause heavy CPU spikes. The terrain modification system utilizes localized mesh updating techniques to ensure that altering the geometry at the point of impact does not cause frame drops, even during heavy 105mm artillery bombardment.
 
 ---
 ## Copyright & License
