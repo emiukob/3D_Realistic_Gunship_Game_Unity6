@@ -46,8 +46,8 @@ By abstracting complex flight dynamics into an automated orbit system, the proje
 | :---: | :---: |
 | <img src="Images/tracking.png" width="400"><br><i>Gimbal tracking and weapon telemetry.</i> | <img src="Images/Blckir.png" width="400"><br><i>White Hot / Black Hot dynamic heat detection.</i> |
 
-| Dynamic Destruction | Radar & Threat Detection |
-| :---: | :---: |
+| Dynamic Destruction |
+| :---: |
 | <img src="Images/destruckiton.png" width="400"><br><i>Real-time terrain deformation with Mesh Deformation.</i> | 
 
 ---
