@@ -11,7 +11,7 @@
 
 ## 📖 About the Project
 
-This Game is a highly technical Close Air Support e.g(AC-130) simulation built to showcase advanced camera systems, custom shader development, and dynamic physics in Unity. 
+This Game is a highly technical Close Air Support e.g(AC-130) simulation-like game built to showcase advanced camera systems, custom shader development, and dynamic physics in Unity. 
 
 By abstracting complex flight dynamics into an automated orbit system, the project shifts its focus entirely to the intricacies of aerial gunnery. Players operate high-tech targeting pods, manage multi-caliber weapon systems, and utilize custom Forward-Looking Infrared (FLIR) shaders to engage AI-driven ground threats in a dynamic battlefield.
 
