@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🚁 AC-130 Gunship: Close Air Support Simulator</h1>
   <p><b>Advanced Targeting, Thermal Imaging & Dynamic Destruction Framework</b></p>
-  <img src="https://img.shields.io/badge/Made_with-Unity-black?style=for-the-badge&logo=unity" alt="Unity"/>
+  <img src="https://img.shields.io/badge/Unity-6%20LTS-black?style=for-the-badge&logo=unity" alt="Unity 6"/>
   <img src="https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge&logo=c-sharp" alt="C#"/>
   <img src="https://img.shields.io/badge/Graphics-Custom_Shaders-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Physics-Dynamic_Deformation-critical?style=for-the-badge"/>
@@ -11,9 +11,20 @@
 
 ## 📖 About the Project
 
-This Game is a highly technical Close Air Support (CAS) simulation built to showcase advanced camera systems, custom shader development, and dynamic physics in Unity. 
+This Game is a highly technical Close Air Support e.g(AC-130) simulation built to showcase advanced camera systems, custom shader development, and dynamic physics in Unity. 
 
 By abstracting complex flight dynamics into an automated orbit system, the project shifts its focus entirely to the intricacies of aerial gunnery. Players operate high-tech targeting pods, manage multi-caliber weapon systems, and utilize custom Forward-Looking Infrared (FLIR) shaders to engage AI-driven ground threats in a dynamic battlefield.
+
+---
+
+## 🎬 Gameplay Showcase
+
+<p align="center">
+  <a href="BURAYA_YOUTUBE_LINKINI_YAPISTIR" target="_blank">
+    <img src="https://img.youtube.com/vi/BURAYA_VIDEO_IDSINI_YAZ/maxresdefault.jpg" alt="AC-130 Gunship Sim Gameplay" width="600">
+  </a>
+</p>
+<p align="center"><i>Click the image to watch the full gameplay on YouTube</i></p>
 
 ---
 
